@@ -3,7 +3,7 @@ class Omnisharp < Formula
   homepage "http://www.omnisharp.net/"
   url "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.0.4/omnisharp.tar.gz"
   version "1.0.4"
-  sha256 "dd6d130bf83082045763caa6dfeaa7520956e06f835dd60e3143fdeda1916461"
+  sha256 "ae97e60973115bd5ad3b84e16aced34adfa7ccc4509aef7416f7ed9de73e500e"
 
   depends_on "mono" => :recommended
   depends_on "aspnet/dnx/dnvm" => :recommended
