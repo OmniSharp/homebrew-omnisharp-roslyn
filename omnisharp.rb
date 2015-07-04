@@ -1,9 +1,9 @@
 class Omnisharp < Formula
   desc "Cross platform .NET development in the editor of your choice"
   homepage "http://www.omnisharp.net/"
-  url "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.0.4/omnisharp.tar.gz"
-  version "1.0.4"
-  sha256 "ae97e60973115bd5ad3b84e16aced34adfa7ccc4509aef7416f7ed9de73e500e"
+  url "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.0.6/omnisharp.tar.gz"
+  version "1.0.6"
+  sha256 "7b2d1dad567e7f18d529edee55e92c86f879d44566fda3f689cc737e0a92f7e2"
 
   depends_on "mono" => :recommended
   depends_on "aspnet/dnx/dnvm" => :recommended
