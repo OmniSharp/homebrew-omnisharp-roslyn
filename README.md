@@ -8,6 +8,9 @@ First tap the repository with the following:
 
 `brew tap omnisharp/omnisharp-roslyn`
 
+Update brew:
+`brew update`
+
 Then you can install omnisharp with:
 
 `brew install omnisharp`
