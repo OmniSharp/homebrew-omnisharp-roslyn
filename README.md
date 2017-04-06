@@ -18,7 +18,7 @@ Then you can install omnisharp with:
 
 ## Dependencies
 
-The formula specifies `mono` and `dnvm` (through the aspnet/dnx tap) as dependencies and will install these via homebrew if they are not found. If you have a pre-existing non-homebrew install of these, you can use `--without-mono` and/or `--without-dnvm` with the install command to skip installing those via brew.
+The formula specifies `mono` as a dependency and will install it via homebrew during installation if it isn’t found. If you have an existing non-homebrew install of `mono`, you can use `--without-mono` with the install command to skip installing it.
 
 ## Upgrading
 
