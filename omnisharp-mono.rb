@@ -13,7 +13,7 @@ class OmnisharpMono < Formula
 
     # To match non-mono install, create an `omnisharp' shell script.
     (bin/"omnisharp").write <<-EOS.undent
-      #env /bin/sh
+      #!/usr/bin/env sh
       mono /usr/local/opt/omnisharp-mono/libexec/OmniSharp.exe $@
     EOS
   end
