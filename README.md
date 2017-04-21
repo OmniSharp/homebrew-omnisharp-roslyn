@@ -12,9 +12,13 @@ Update brew:
 
 `brew update`
 
-Then you can install omnisharp with:
+Then you can install omnisharp (.NET Core standalone) with:
 
 `brew install omnisharp`
+
+or the Mono version (recommended):
+
+`brew install omnisharp-mono`
 
 ## Dependencies
 
