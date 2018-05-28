@@ -12,7 +12,7 @@ class OmnisharpMono < Formula
     libexec.install Dir["*"]
 
     # To match non-mono install, create an `omnisharp' shell script.
-    (bin/"omnisharp").write <<-EOS.undent
+    (bin/"omnisharp").write <<~EOS
       #!/usr/bin/env sh
       mono /usr/local/opt/omnisharp-mono/libexec/OmniSharp.exe $@
     EOS
