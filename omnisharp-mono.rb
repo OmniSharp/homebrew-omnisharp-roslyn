@@ -1,9 +1,9 @@
 class OmnisharpMono < Formula
   desc "Cross platform .NET development in the editor of your choice"
   homepage "http://www.omnisharp.net/"
-  url "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.19.0/omnisharp-mono.tar.gz"
-  version "1.19.0"
-  sha256 "80a9ff14f5939c1cf32bc6264d4c813ee0a6c23027a3301338f94858d6b79c31"
+  url "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.34.11/omnisharp-mono.tar.gz"
+  version "1.34.11"
+  sha256 "c3f407aea71524355f5001e5e5572f834e6a746abe3a1852bd40f9136596a548"
   conflicts_with "omnisharp"
 
   depends_on "mono" => :recommended
