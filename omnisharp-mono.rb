@@ -1,9 +1,9 @@
 class OmnisharpMono < Formula
   desc "Cross platform .NET development in the editor of your choice"
   homepage "http://www.omnisharp.net/"
-  url "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.19.0/omnisharp-mono.tar.gz"
-  version "1.19.0"
-  sha256 "80a9ff14f5939c1cf32bc6264d4c813ee0a6c23027a3301338f94858d6b79c31"
+  url "https://github.com/OmniSharp/omnisharp-roslyn/releases/download/v1.35.2/omnisharp-mono.tar.gz"
+  version "1.35.2"
+  sha256 "e8ae8e55aab3a523f666c46235cdb79342c20bd2a1ab107778ece2d696cf8c4c"
   conflicts_with "omnisharp"
 
   depends_on "mono" => :recommended
@@ -12,7 +12,7 @@ class OmnisharpMono < Formula
     libexec.install Dir["*"]
 
     # To match non-mono install, create an `omnisharp' shell script.
-    (bin/"omnisharp").write <<-EOS.undent
+    (bin/"omnisharp").write <<~EOS
       #!/usr/bin/env sh
       mono /usr/local/opt/omnisharp-mono/libexec/OmniSharp.exe $@
     EOS
